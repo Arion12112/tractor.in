@@ -8,12 +8,12 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'monitor',
+        path: 'profiles',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../monitor/monitor.module').then(m => m.MonitorPageModule)
+              import('../profiles/profiles.module').then(m => m.ProfilesPageModule)
           }
         ]
       },
@@ -24,6 +24,16 @@ const routes: Routes = [
             path: '',
             loadChildren: () =>
               import('../home/home.module').then(m => m.HomePageModule)
+          }
+        ]
+      },
+      {
+        path: 'search',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../search/search.module').then(m => m.SearchPageModule)
           }
         ]
       },
