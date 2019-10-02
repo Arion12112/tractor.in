@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  InsightPage() {
+    this.router.navigateByUrl('insight1');
+  }
+  ServicePage() {
+    this.router.navigateByUrl('service');
+  }
+  EducationPage() {
+    this.router.navigateByUrl('education');
+  }
+  QnaPage() {
+    this.router.navigateByUrl('qn-a');
+  }
 }
