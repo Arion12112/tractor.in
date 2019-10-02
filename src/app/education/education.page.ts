@@ -13,7 +13,11 @@ export class EducationPage implements OnInit {
   ngOnInit() {
   }
 
-  InsightPage() {
-    this.router.navigateByUrl('insight1');
+  VideoPage() {
+    this.router.navigateByUrl('education-video');
+  }
+
+  JadwalPenyuluhPage() {
+    this.router.navigateByUrl('calendar');
   }
 }
