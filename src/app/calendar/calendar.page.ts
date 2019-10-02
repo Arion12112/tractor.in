@@ -24,6 +24,7 @@ export class CalendarPage implements OnInit {
   viewTitle;
  
   calendar = {
+    noEventsLabel: 'Tidak ada penyuluhan',
     mode: 'month',
     currentDate: new Date(),
   };
