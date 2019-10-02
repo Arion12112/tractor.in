@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-insight1',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Insight1Page implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  OlahtanahPage() {
+    this.router.navigateByUrl('olah-tanah');
+  }
+  IrigasiPage() {
+    this.router.navigateByUrl('irigasi');
+  }
+  TanamPage() {
+    this.router.navigateByUrl('tanam');
+  }
+  PanenPage() {
+    this.router.navigateByUrl('panen');
+  }
 }

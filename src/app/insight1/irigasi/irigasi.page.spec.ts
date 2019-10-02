@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Insight3Page } from './insight3.page';
+import { IrigasiPage } from './irigasi.page';
 
-describe('Insight3Page', () => {
-  let component: Insight3Page;
-  let fixture: ComponentFixture<Insight3Page>;
+describe('IrigasiPage', () => {
+  let component: IrigasiPage;
+  let fixture: ComponentFixture<IrigasiPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Insight3Page ],
+      declarations: [ IrigasiPage ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Insight3Page);
+    fixture = TestBed.createComponent(IrigasiPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
