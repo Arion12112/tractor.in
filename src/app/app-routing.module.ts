@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'olah-tanah', loadChildren: './insight1/olah-tanah/olah-tanah.module#OlahTanahPageModule' },
   { path: 'irigasi', loadChildren: './insight1/irigasi/irigasi.module#IrigasiPageModule' },
   { path: 'tanam', loadChildren: './insight1/tanam/tanam.module#TanamPageModule' },
-  { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' }
+  { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' },  { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' }
+
 
 ];
 @NgModule({
