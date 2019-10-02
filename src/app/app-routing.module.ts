@@ -14,12 +14,15 @@ const routes: Routes = [
   { path: 'education', loadChildren: './education/education.module#EducationPageModule' },
   { path: 'education-video', loadChildren: './education-video/education-video.module#EducationVideoPageModule' },
   { path: 'insight1', loadChildren: './insight1/insight1.module#Insight1PageModule' },
-  { path: 'insight2', loadChildren: './insight2/insight2.module#Insight2PageModule' },
-  { path: 'insight3', loadChildren: './insight3/insight3.module#Insight3PageModule' },
   { path: 'onboarding', loadChildren: './onboarding/onboarding.module#OnboardingPageModule' },
   { path: 'profiles', loadChildren: './profiles/profiles.module#ProfilesPageModule' },
   { path: 'service', loadChildren: './service/service.module#ServicePageModule' },
-  { path: 'search', loadChildren: './search/search.module#SearchPageModule' }
+  { path: 'search', loadChildren: './search/search.module#SearchPageModule' },
+  { path: 'olah-tanah', loadChildren: './insight1/olah-tanah/olah-tanah.module#OlahTanahPageModule' },
+  { path: 'irigasi', loadChildren: './insight1/irigasi/irigasi.module#IrigasiPageModule' },
+  { path: 'tanam', loadChildren: './insight1/tanam/tanam.module#TanamPageModule' },
+  { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' }
+
 ];
 @NgModule({
   imports: [
