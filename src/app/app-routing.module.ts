@@ -27,9 +27,13 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'alsintan-olah', loadChildren: './AnalisisAlsintan/alsintan-olah-tanah/alsintan-olah-tanah.module#AlsintanOlahTanahPageModule' },
+  { path: 'jual', loadChildren: './jual/jual.module#JualPageModule' },
+  { path: 'tambahjual', loadChildren: './tambahjual/tambahjual.module#TambahjualPageModule' },
+  { path: 'alsintan-olah', loadChildren: './AnalisisAlsintan/alsintan-olah-tanah/alsintan-olah-tanah.module#AlsintanOlahTanahPageModule' },
   { path: 'alsintan-irigasi', loadChildren: './AnalisisAlsintan/alsintan-irigasi/alsintan-irigasi.module#AlsintanIrigasiPageModule' },
   { path: 'alsintan-panen', loadChildren: './AnalisisAlsintan/alsintan-panen/alsintan-panen.module#AlsintanPanenPageModule' },
   { path: 'alsintan-tanam', loadChildren: './AnalisisAlsintan/alsinta-tanam/alsinta-tanam.module#AlsintaTanamPageModule' },
+
 
 
 ];
