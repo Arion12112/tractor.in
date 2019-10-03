@@ -28,12 +28,12 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'search',
+        path: 'education',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../search/search.module').then(m => m.SearchPageModule)
+              import('../education/education.module').then(m => m.EducationPageModule)
           }
         ]
       },

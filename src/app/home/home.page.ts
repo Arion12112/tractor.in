@@ -22,7 +22,7 @@ export class HomePage implements OnInit {
   EducationPage() {
     this.router.navigateByUrl('education');
   }
-  BarterPage() {
-    this.router.navigateByUrl('barter');
+  JualPage() {
+    this.router.navigateByUrl('jual');
   }
 }
