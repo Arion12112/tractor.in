@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'irigasi', loadChildren: './insight1/irigasi/irigasi.module#IrigasiPageModule' },
   { path: 'tanam', loadChildren: './insight1/tanam/tanam.module#TanamPageModule' },
   { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' },
-  { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' }
+  { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' },  { path: 'login', loadChildren: './login/login.module#LoginPageModule' }
+
 
 
 ];
