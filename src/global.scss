@@ -28,6 +28,7 @@
 ion-toolbar {
     --background: #1EB1A1;
   }
+
 ion-title {
     position: absolute;
     left: 50%;
@@ -36,4 +37,9 @@ ion-title {
     height: 100%;
     width: 70%;
     text-align: center;
+    color: #ffffff;
+}
+
+Ion-back-button {
+  color: #FFFFFF;
 }
