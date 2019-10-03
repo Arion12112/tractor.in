@@ -21,7 +21,11 @@ const routes: Routes = [
   { path: 'olah-tanah', loadChildren: './insight1/olah-tanah/olah-tanah.module#OlahTanahPageModule' },
   { path: 'irigasi', loadChildren: './insight1/irigasi/irigasi.module#IrigasiPageModule' },
   { path: 'tanam', loadChildren: './insight1/tanam/tanam.module#TanamPageModule' },
-  { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' },  { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' }
+  { path: 'panen', loadChildren: './insight1/panen/panen.module#PanenPageModule' },  { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' },
+  { path: 'alsintan-olah-tanah', loadChildren: './AnalisisAlsintan/alsintan-olah-tanah/alsintan-olah-tanah.module#AlsintanOlahTanahPageModule' },
+  { path: 'analisis-irigasi', loadChildren: './AnalisisAlsintan/analisis-irigasi/analisis-irigasi.module#AnalisisIrigasiPageModule' },
+  { path: 'analisis-tanam', loadChildren: './AnalisisAlsintan/analisis-tanam/analisis-tanam.module#AnalisisTanamPageModule' },
+  { path: 'analisis-panen', loadChildren: './AnalisisAlsintan/analisis-panen/analisis-panen.module#AnalisisPanenPageModule' }
 
 
 ];
