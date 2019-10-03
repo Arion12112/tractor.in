@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AnalisisPanenPage } from './analisis-panen.page';
+import { AlsintanIrigasiPage } from './alsintan-irigasi.page';
 
-describe('AnalisisPanenPage', () => {
-  let component: AnalisisPanenPage;
-  let fixture: ComponentFixture<AnalisisPanenPage>;
+describe('AlsintanIrigasiPage', () => {
+  let component: AlsintanIrigasiPage;
+  let fixture: ComponentFixture<AlsintanIrigasiPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AnalisisPanenPage ],
+      declarations: [ AlsintanIrigasiPage ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AnalisisPanenPage);
+    fixture = TestBed.createComponent(AlsintanIrigasiPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
