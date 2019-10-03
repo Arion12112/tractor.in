@@ -19,8 +19,8 @@ export class HomePage implements OnInit {
   ServicePage() {
     this.router.navigateByUrl('service');
   }
-  EducationPage() {
-    this.router.navigateByUrl('education');
+  PinjamPage() {
+    this.router.navigateByUrl('pinjam');
   }
   JualPage() {
     this.router.navigateByUrl('jual');

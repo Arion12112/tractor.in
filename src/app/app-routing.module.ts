@@ -33,6 +33,16 @@ const routes: Routes = [
   { path: 'alsintan-irigasi', loadChildren: './AnalisisAlsintan/alsintan-irigasi/alsintan-irigasi.module#AlsintanIrigasiPageModule' },
   { path: 'alsintan-panen', loadChildren: './AnalisisAlsintan/alsintan-panen/alsintan-panen.module#AlsintanPanenPageModule' },
   { path: 'alsintan-tanam', loadChildren: './AnalisisAlsintan/alsinta-tanam/alsinta-tanam.module#AlsintaTanamPageModule' },
+  { path: 'pinjam-tanam', loadChildren: './PinjamAlsintan/pinjam-tanam/pinjam-tanam.module#PinjamTanamPageModule' },
+  { path: 'pinjam-irigasi', loadChildren: './PinjamAlsintan/pinjam-irigasi/pinjam-irigasi.module#PinjamIrigasiPageModule' },
+  { path: 'pinjam-olah-tanah', loadChildren: './PinjamAlsintan/pinjam-olah-tanah/pinjam-olah-tanah.module#PinjamOlahTanahPageModule' },
+  { path: 'pinjam-panen', loadChildren: './PinjamAlsintan/pinjam-panen/pinjam-panen.module#PinjamPanenPageModule' },
+  { path: 'pinjam', loadChildren: './pinjam/pinjam.module#PinjamPageModule' },  { path: 'pinjamirigasi', loadChildren: './pinjam/pinjamirigasi/pinjamirigasi.module#PinjamirigasiPageModule' },
+  { path: 'pinjamtanam', loadChildren: './pinjam/pinjamtanam/pinjamtanam.module#PinjamtanamPageModule' },
+  { path: 'pinjampanen', loadChildren: './pinjam/pinjampanen/pinjampanen.module#PinjampanenPageModule' },
+  { path: 'pinjamolahtanah', loadChildren: './pinjam/pinjamolahtanah/pinjamolahtanah.module#PinjamolahtanahPageModule' },
+
+
 
 
 
