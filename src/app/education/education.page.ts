@@ -20,4 +20,8 @@ export class EducationPage implements OnInit {
   JadwalPenyuluhPage() {
     this.router.navigateByUrl('calendar');
   }
+
+  DiskusiPage() {
+    this.router.navigateByUrl('qn-a');
+  }
 }

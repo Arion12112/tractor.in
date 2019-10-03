@@ -1,7 +1,7 @@
     ion-card {
       position: relative;
       text-align: center;
-      height: 10em;
+      height: 8em;
     }
 
     .card-title {
@@ -20,6 +20,13 @@
       height: 100%;
       width: 70%;
       text-align: center;
+  }
+
+  img {
+    height: 13em;
+    width: auto;
+    margin: auto;
+    display: block;
   }
     // .card-title {
     //   position: absolute;
