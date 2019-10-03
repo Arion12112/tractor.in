@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-olah-tanah',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OlahTanahPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  AnalisaOlahTanahPage() {
+    this.router.navigateByUrl('alsintan-olah');
   }
 
 }
