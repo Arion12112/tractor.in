@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+      <ion-title text-center>
+        Jual Alsintan
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+
+    
+    <!-- <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+        <ion-fab-button (click)="takePicture()">
+          <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+      </ion-fab> -->
+
+      <ion-list>
+  
+    
+        <ion-item>
+          <ion-input type="text" placeholder="Nama alat"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+        <ion-input type="text" placeholder="Harga"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+        <ion-input type="text" placeholder="Jumlah Unit"></ion-input>
+        </ion-item>
+      
+    
+      </ion-list>
+    
+      <div padding>
+          <ion-button  (click)="takePicture()" color="secondary">Tambah foto</ion-button>
+      </div>
+      <div padding>
+          <ion-button  href="/tambahjual">Jual</ion-button>
+      </div>
+      
+
+
+    </ion-content>
