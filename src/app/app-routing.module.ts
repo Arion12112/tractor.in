@@ -26,7 +26,11 @@ const routes: Routes = [
   { path: 'barter', loadChildren: './barter/barter.module#BarterPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
+<<<<<<< HEAD
   { path: 'alsintan-olah', loadChildren: './AnalisisAlsintan/alsintan-olah-tanah/alsintan-olah-tanah.module#AlsintanOlahTanahPageModule' },
+=======
+  { path: 'alsintan-olah', loadChildren: './AnalisisAlsintan/alsintan-olah-tanah/alsintan-olah-tanah.module#AlsintanOlahTanahPageModule' }
+>>>>>>> 62ed33ea8271e32a747756d43a070399f1408ba1
 
 ];
 @NgModule({
